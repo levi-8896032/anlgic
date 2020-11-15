@@ -1,0 +1,33 @@
+standard
+***Report Model: camera_top***
+
+IO Statistics
+#IO                    67
+  #input               19
+  #output              47
+  #inout                1
+
+Utilization Statistics
+#lut                 9863   out of  19600   50.32%
+#reg                  686   out of  19600    3.50%
+#le                  9939
+  #lut only          9253   out of   9939   93.10%
+  #reg only            76   out of   9939    0.76%
+  #lut&reg            610   out of   9939    6.14%
+#dsp                    2   out of     29    6.90%
+#bram                  61   out of     64   95.31%
+  #bram9k              61
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   67   out of    188   35.64%
+  #ireg                 2
+  #oreg                 4
+  #treg                 0
+#pll                    1   out of      4   25.00%
+
+Report Hierarchy Area:
++------------------------------------------+
+|Instance |Module     |le    |lut   |seq   |
++------------------------------------------+
+|top      |camera_top |9939  |9863  |686   |
++------------------------------------------+
